@@ -26,11 +26,13 @@ See https://www.cse.wustl.edu/~legrand/rbvote/desc.html for descriptions of the 
 
 ## Usage
 
-`require 'voting_systems'`
+```ruby
+require 'voting_systems'
+```
 
 There are two input formats.  The first looks like:
 
-```
+```ruby
 votes = '4:A>B>C
          5:B>C>A
          2:C=A>B'
@@ -40,7 +42,7 @@ There are 4 votes with the preference A>B>C, 5 votes with B>C>A, and 2 votes wit
 
 The second looks like:
 
-```
+```ruby
 votes = [
   [4, ['A','B','C']],
   [5, ['B','C','A']],
@@ -52,7 +54,7 @@ Here, the alternatives need not be strings, but can be any object.
 
 To find the winner(s) for a given system (e.g. `borda`):
 
-```
+```ruby
 winners = borda votes
 => ["B"]
 ```
