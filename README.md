@@ -20,6 +20,10 @@ Voting systems:
 
 See https://www.cse.wustl.edu/~legrand/rbvote/desc.html for descriptions of the systems.
 
+## Installation
+
+`gem install voting_systems`
+
 ## Usage
 
 `require 'voting_systems'`
@@ -46,10 +50,9 @@ votes = [
 
 Here, the alternatives need not be strings, but can be any object.
 
-To find the winner(s) for a given system:
+To find the winner(s) for a given system (e.g. `borda`):
 
 ```
 winners = borda votes
-
 => ["B"]
 ```
