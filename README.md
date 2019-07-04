@@ -22,7 +22,9 @@ See https://www.cse.wustl.edu/~legrand/rbvote/desc.html for descriptions of the 
 
 ## Installation
 
-`gem install voting_systems`
+```
+gem install voting_systems
+```
 
 ## Usage
 
@@ -58,3 +60,7 @@ To find the winner(s) for a given system (e.g. `borda`):
 winners = borda votes
 => ["B"]
 ```
+
+## Author
+
+Tim Smith ([timlabs.org](http://timlabs.org))
