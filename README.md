@@ -8,7 +8,7 @@ Ties and omissions are allowed in the preferences.  Omitted alternatives are con
 
 All of the systems are deterministic.  There is no random tie-breaking.  If the result is a tie, all of the tied alternatives will be returned.
 
-Supported systems:
+## Systems
 
 method name    | description
 ---            | ---
