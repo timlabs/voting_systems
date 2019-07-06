@@ -40,7 +40,7 @@ votes = '4:A>B>C
          2:C=A>B'
 ```
 
-There are 4 votes with the preference A>B>C, 5 votes with B>C>A, and 2 votes with C=A>B (meaning that C and A are equally preferred, and both are preferred to B).
+This means 4 voters have the preference A>B>C, 5 voters have B>C>A, and 2 voters have C=A>B (meaning that C and A are equally preferred, and both are preferred to B).
 
 The second looks like:
 
