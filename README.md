@@ -8,17 +8,17 @@ Ties and omissions are allowed in the preferences.  Omitted alternatives are con
 
 All of the systems are deterministic.  There is no random tie-breaking.  If the result is a tie, all of the tied alternatives will be returned.
 
-Voting systems:
+Supported systems:
 
-* baldwin
-* borda
-* bucklin
-* coombs
-* copeland
-* instant_runoff
-* ranked_pairs
-
-See https://www.cse.wustl.edu/~legrand/rbvote/desc.html for descriptions of the systems.
+method name    | description
+---            | ---
+baldwin        | [Baldwin method](https://en.wikipedia.org/wiki/Nanson%27s_method#Baldwin_method)
+borda          | [Borda count](https://en.wikipedia.org/wiki/Borda_count)
+bucklin        | [Bucklin voting](https://en.wikipedia.org/wiki/Bucklin_voting)
+coombs         | [Coombs' method](https://en.wikipedia.org/wiki/Coombs%27_method)
+copeland       | [Copeland's method](https://en.wikipedia.org/wiki/Copeland%27s_method)
+instant_runoff | [Instant-runoff voting](https://en.wikipedia.org/wiki/Instant-runoff_voting)
+ranked_pairs   | [Ranked pairs](https://en.wikipedia.org/wiki/Ranked_pairs)
 
 ## Installation
 
